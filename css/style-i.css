@@ -1,0 +1,159 @@
+body{
+    background-color:#f8f8f8;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+p{
+    color: white;
+    font-size: 11px;
+}
+h2{
+    font-size: 40px;
+    font-family: algerian;
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent,#0005);
+}
+.lwwl{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1em 0;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 1);
+    font-size: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.mg{
+    background-color: black;
+    background-image: url('../media/logo.png');
+    background-position: center;
+    background-size: cover;
+    height: 65px;
+    width:90px ;
+    border-radius: 15px;
+    border: none;
+    margin:0 5px;
+    margin-left: 0%;
+    float: left;
+    mix-blend-mode: screen;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding:0 100px;
+    margin: 0 -50px;
+}
+.tani{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.l1,.inp1{
+    float: left;
+    margin-left: 25%;
+}
+
+.l2,.inp2{
+    float: right;
+    margin-right: 25%;
+}
+.inp1,.inp2{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border:1px solid #3333;
+}
+.inp3,.inp4{
+    width: 650px;
+    height: 30px;
+    border-radius: 8px;
+    border:1px solid #3333;
+}
+.l2.l3.l4{
+    margin-left: 25%;
+}
+.l5{
+    width: 650px;
+    height: 100px;
+    border-radius: 8px;
+    border:1px solid #3333;
+}
+.btn{
+    width: 80px;
+    height:30px ;
+    border-radius:11px;
+    border: none;
+    color: white;
+    background-color: red;
+    filter: grayscale(200);
+    cursor: pointer;
+    margin-right: 45%;
+}
+.btn:hover{
+    transform: scale(1.02);
+    filter: grayscale(0);
+    background-color: green;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+    background-image: url('../media/amg.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+    margin-left: 0%;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:50%;
+    margin-left: 30%;
+}
+#paro{
+    margin-left:30%;
+    margin:0 50px;
+}
+#pari{
+    margin:0 150px;
+    margin-right: 30%;
+}
+#paru{
+    float: left;
+    margin:0 50px;
+    margin-left: 0%;
+}
+.img{
+    height: 90px;
+    width: 100px;
+    float: left;
+    mix-blend-mode:screen;
+    border-radius: 15px;
+}
+

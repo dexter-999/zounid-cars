@@ -1,0 +1,204 @@
+body{
+    background-color:#f8f8f8;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.lwwl{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1em 0;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 1);
+    font-size: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index:1;
+}
+.mg{
+    background-color: black;
+    background-image: url('../media/logo.png');
+    background-position: center;
+    background-size: cover;
+    height: 95px;
+    width:130px ;
+    border-radius: 15px;
+    border: none;
+    margin:0 10px;
+    margin-left: 10%;
+    float: left;
+    mix-blend-mode: screen;
+}
+h2{
+    font-size: 40px;
+    font-family: algerian;
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent,#0005);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin:0 15px;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding:0 100px;
+}
+.tani{
+    background-color: #f8f8f8;
+    background-size: 210vh;
+    padding:5px 5px;
+    color: white;
+    padding-bottom: 150px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: auto;
+    margin: 10%;
+    border-radius: 15px;
+    border: none;
+}
+.dv{
+    display:flex;
+
+    height: 500px;
+    width: 1600px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.dv img{
+    height:100% ;
+    width: 900px;
+    object-fit: cover;
+}
+.hada{
+    font-family:algerian;
+    background-image: url('../media/msfra2.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+}
+img{
+    height: 300px;
+    width: 500px;
+    margin:0 15px;
+    border-radius: 18px;
+    cursor: pointer;
+    border: 4px solid #f8f8f8;
+}
+img:hover{
+    transform: scale(0.9);
+
+}
+.df{
+    background-color: beige;
+    width: 900px;
+    height: 150px;
+    margin-left: 25%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.df:hover{
+    transform: scale(1.09);
+}
+button{
+    height:50px ;
+    width:150px ;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    filter: blur(10px);
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.3);
+    filter: blur(0px);
+}
+.paa{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../media/msfra3.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+}
+.pii{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('../media/mer1.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+}
+.dg{
+    text-align:justify;
+    margin-left: 15%;
+}
+.puu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+    background-image: url('../media/amg.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+    margin-left: 0%;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:50%;
+    margin-left: 30%;
+}
+#paro{
+    margin-left:30%;
+    margin:0 50px;
+}
+#pari{
+    margin:0 150px;
+    margin-right: 30%;
+}
+#paru{
+    float: left;
+    margin:0 50px;
+    margin-left: 0%;
+}
+.img{
+    height: 90px;
+    width: 100px;
+    float: left;
+    mix-blend-mode:screen;
+}

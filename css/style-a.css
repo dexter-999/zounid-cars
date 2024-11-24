@@ -1,0 +1,180 @@
+body{
+    background-color:#f8f8f8;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.lwwl{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1em 0;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 1);
+    font-size: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.mg{
+    background-color: black;
+    background-image: url('../media/logo.png');
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    width:120px ;
+    border-radius: 15px;
+    border: none;
+    margin:0 6px;
+    margin-left: 10%;
+    float: left;
+    mix-blend-mode: screen;
+}
+.hh{
+    color: white;
+    font-size: 40px;
+    font-family: algerian;
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent,#0005);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-right:0 1px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding:0 100px;
+    margin:0 -2px;
+}
+.aa{
+    float: left;
+    height: 600px;
+    width: 700px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px red);
+}
+.fa{
+    float: right;
+    margin-right: 10%;
+}
+h1,h2{
+    color: #333;
+    font-weight: 900;
+}
+.p1{
+    color:rgb(7, 38, 138);
+}
+label{
+    font-size: 20px;
+    color:rgb(7, 38, 138);
+    font-weight: 1000;
+}
+#se{
+    background-image: url('../media/kakarot.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    height: 30px;
+    width: 500px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.bu{
+    height: 30px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.bu:hover{
+    transform: scale(1.02);
+}
+.dv{
+    background-color:cyan ;
+    padding:5px 5px;
+    border-radius: 10px;
+}
+.df{
+    background-color: beige;
+    padding:5px 5px;
+    border-radius: 10px;
+}
+.wahd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.le{
+    margin-right: 20px;
+}
+.h2 {
+    font-family: algerian;
+    font-size: 30px;
+}
+.tono{
+    border-radius: 15px;
+    filter: drop-shadow(0 0 25px cyan);
+}
+.png{
+    background-color: black;
+    color: white;
+    height: 300px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+    background-image: url('../media/amg.png');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    -webkit-box-reflect: below
+    0px linear-gradient(transparent,#0005);
+    margin-left: 0%;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:50%;
+    margin-left: 30%;
+}
+#paro{
+    margin-left:30%;
+    margin:0 50px;
+}
+#pari{
+    margin:0 150px;
+    margin-right: 30%;
+}
+#paru{
+    float: left;
+    margin:0 50px;
+    margin-left: 0%;
+}
+.img{
+    height: 90px;
+    width: 100px;
+    float: left;
+    mix-blend-mode:screen;
+}
+
+
+
+   
